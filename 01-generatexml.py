@@ -3,16 +3,31 @@
 import xml.etree.ElementTree as ET
 import parse
 
+# languages = {
+#     "zh-CN":"chinese",
+#     "en-US":"english"
+# }
+
+# TODO Could just insert all the file names and paths in the script
+# and just check whether the fields exist or not
+
+#-------------------------------------------------------------------------------
+# User inputs
+#-------------------------------------------------------------------------------
+masterXMLPath   = str(raw_input("Master library XML path: "))
+defPath         = str(raw_input(".def file path: "))
+language        = str(raw_input("Language: ")) # TODO: This can be extracted from the master library
+
 #-------------------------------------------------------------------------------
 # Parsing def file
 #-------------------------------------------------------------------------------
 uids = []
-deffile = open("example.def", 'r')
+deffile = open(defPath, 'r')
 for line in deffile:
     # Extracting ID and uID
     result = parse.parse("STRING_DEF({}, {:d})", line)
-    id  = result.fixed[0]
-    uid = result.fixed[1]
+    idString    = result.fixed[0]
+    uid         = result.fixed[1]
     uids.append(uid)
 
 #-------------------------------------------------------------------------------
@@ -20,7 +35,7 @@ for line in deffile:
 #-------------------------------------------------------------------------------
 
 # Obtain root of XML tree
-tree = ET.parse("english.xml")
+tree = ET.parse(masterXMLPath)
 root = tree.getroot()
 
 # Obtain the root's attributes
@@ -29,7 +44,7 @@ rootAttributes = root.attrib
 attributeLang   = "{http://www.w3.org/XML/1998/namespace}lang"
 attributeId     = "id"
 # Checking language
-language = rootAttributes[attributeLang]
+# language = rootAttributes[attributeLang]
 
 # concept
 #     title
@@ -53,4 +68,4 @@ for section in conbody.findall("section"):
     if uidInt not in uids:
         conbody.remove(section)
 
-tree.write("result.xml");
+tree.write(language + ".xml");
