@@ -1,0 +1,30 @@
+<concept id="c_Dictionary" xml:lang="en-US">
+	<title>CompactController dictionary</title>
+	<conbody>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000003">Faults</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000009">Setup Wizard</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000020">Maintenance</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000100">Pump 1 OFF</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000200">Over Range Enabled</uicontrol>
+			</menucascade>
+		</section>
+		</conbody>
+</concept>

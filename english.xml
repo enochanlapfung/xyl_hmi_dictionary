@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Arbortext, Inc., 1988-2012, v.4002-->
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+ "concept.dtd">
+<concept id="c_Dictionary" xml:lang="en-US">
+	<title>CompactController dictionary</title>
+	<conbody>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000001">Home</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000002">Fault</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000003">Faults</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000004">History</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000005">Settings</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000006">Stopped</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000007">Alarms</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000008">I/O</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000009">Setup Wizard</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000010">About</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000011">Well</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000012">Pump 1</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000013">Pump 2</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000014">Current Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000015">Active Profile</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000016">Duty Start Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000017">Standby Start Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000018">Pump Stop Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000019">Unknown</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000020">Maintenance</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000021">Off</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000022">Decomm.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000023">Status</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000024">Current</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000025">Run Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000026">Starts</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000027">  Yesterday</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000028">Power</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000029">Energy</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000030">Power Factor</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000031">Running</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000032">Status: PRESENT</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000033">Status: RESET REQUIRED</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000034">Triggered @ </uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000035">Cleared @ </uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000036">Analog High Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000037">Analog Low Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000038">Float High Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000039">Float Low Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000040">Analog Under Range</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000041">Analog Over Range</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000042">Volt Phase Failure</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000043">Undervoltage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000044">Overvoltage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000045">Volt Phase Rotation</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000046">Pump 1 Overcurrent</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000047">Pump 2 Overcurrent</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000048">Pump 1 Current Phase Imbalance</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000049">Pump 2 Current Phase Imbalance</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000050">Pump 1 Leakage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000051">Pump 2 Leakage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000052">Pump 1 High Temperature</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000053">Pump 2 High Temperature</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000054">Pump 1 Sensor Short Circuit</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000055">Pump 2 Sensor Short Circuit</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000056">Pump 1 Maximum Run Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000057">Pump 2 Maximum Run Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000058">Pump 1 Fail To Start</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000059">Pump 2 Fail To Start</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000060">Pump 1 Service Interval</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000061">Pump 2 Service Interval</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000062">Station Inhibit</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000063">Personnel Alarm</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000064">Test Call</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000065">Startup Failure</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000066">Station Overflow</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000067">Comms Fail</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000068">Please check the wiring</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000069">Call the service:</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000070">Profile 1</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000071">Profile 2</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000072">Profile 3</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000073">Profile 4</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000074">Firmware Version</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000075">Boot Cycle Count</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000076">Controller</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000077">Controller Bootloader</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000078">HMI</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000079">HMI Bootloader</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000080">Error</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000081">Duty Pump Start Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000082">Standby Pump Start Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000083">Stop Level Invalid</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000084">Reset Statistics</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000085">Searching for update</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000086">No firmware update available</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000087">Upgrading</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000088">Error</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000089">Done</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000090">Do you wish to continue and upgrade the HMI firmware?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000091">No communications</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000092">Proceed with upgrade?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000093">Profiles</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000094">Digital Inputs</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000095">Analog Inputs</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000096">Voltage Inputs</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000097">Current Inputs</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000098">Digital Outputs</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000099">System Information</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000100">Pump 1 OFF</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000101">Pump 1 HAND</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000102">Pump 2 OFF</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000103">Pump 2 HAND</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000104">Float 1</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000105">Float 2</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000106">Float 3</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000107">Float 4</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000108">GP Input</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000109">Silence</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000110">OFF</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000111">ON</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000112">DRY</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000113">WET</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000114">Ain 1</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000115">Pump 1 FLS</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000116">Pump 2 FLS</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000117">Bell Pressure</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000118">Bell Temperature</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000119">UPS 24 V</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000120">Neutral Voltage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000121">L1 Voltage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000122">L2 Voltage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000123">L3 Voltage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000124">Phase 12</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000125">Phase 23</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000126">Phase 31</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000127">Current 1</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000128">Current 2</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000129">Current 3</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000130">Current 4</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000131">Phase 12</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000132">Phase 34</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000133">Pump 1 Run</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000134">Pump 2 Run</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000135">Pump 1 Reverse</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000136">Pump 2 Reverse</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000137">GP Output</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000138">Lamp</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000139">Status LED</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000140">Diagnostic LED</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000141">Buzzer</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000142">System 24 V</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000143">System Current</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000144">Internal Temperature</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000145">Pump Control</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000146">Motor Protection</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000147">External Modules</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000148">Global Settings</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000149">Pump Control</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000150">Level Device</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000151">Alternation Mode</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000152">Inter-Pump Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000153">Maximum Pumps Running</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000154">Dry Run Protection</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000155">High Level Runtime</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000156">Low Level Block Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000157">Sensor Range</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000158">Level Offset</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000159">Level Full At</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000160">GP Input Usage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000161">Reset HMI</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000162">Proceed with HMI Reset?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000163">Analog</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000164">Open Bell</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000165">Float Switches</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000166">Fixed</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000167">Standard</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000168">Run Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000169">Serial Numbers</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000170">1 Pump</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000171">2 Pumps</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000172">Active:</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000173">None</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000174">Low Level Float</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000175">Profile Name</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000176">Language</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000177">English</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000178">Hrvatski</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000179">Dansk</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000180">Nederlands</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000181">Fran&#231;ais</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000182">Deutsch</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000183">Magyar</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000184">Italiano</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000185">Norsk</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000186">Polski</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000187">Portugu&#234;s</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000188">Espa&#241;ol</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000189">Svenska</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000190">T&#252;rk&#231;e</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000191">Chinese</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000192">Profile Configuration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000193">Low Level Activation Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000194">High Level Activation Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000195">On Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000196">Off Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000197">Analog Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000198">Sensor Zero Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000199">Sensor Range Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000200">Over Range Enabled</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000201">Over Range Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000202">Under Range Enabled</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000203">Under Range Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000204">Maintenance Run</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000205">Enabled</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000206">Run Below Stop Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000207">Interval</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000208">Duration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000209">Open Bell Stop Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000210">Power On Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000211">Randomize Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000212">Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000213">Minimize Fat Build-Up</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000214">Maximum Random Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000215">Maximum Random Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000216">Communication</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000217">Telemetry</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000218">Channel 1</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000219">Channel 2</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000220">Channel 3</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000221">Baud</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000222">Parity</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000223">Number of Data Bits</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000224">First Char Timeout</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000225">Inter Char Timeout</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000226">Radio On Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000227">Radio Off Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000228">RTS Control</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000229">On Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000230">Off Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000231">1200</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000232">2400</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000233">4800</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000234">9600</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000235">19200</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000236">38400</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000237">57600</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000238">115200</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000239">7</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000240">8</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000241">Odd</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000242">Even</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000243">Disabled</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000244">Protocol</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000245">Modbus Slave</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000246">AquaCom Slave</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000247">Slave Address</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000248">Motor Protection</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000249">Phase Mode</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000250">Voltage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000251">Full Load Current</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000252">Overcurrent Threshold</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000253">Enable Leakage</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000254">Single Phase</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000255">3 Phase</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000256">Level Units</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000257">Metric</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000258">Imperial</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000259">Number of Pumps</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000260">Confirmation</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000261">Apply Changes?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000262">Current Settings will be overwritten</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000263">Please wait...</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000264">Unit is rebooting with new configuration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000265">Communication Failure</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000266">Check the communications</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000267">General Settings</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000268">Activation Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000269">Deactivation Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000270">Pump Unavailable</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000271">Reset Required</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000272">Reset Required After</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000273">Control Lamp</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000274">Control Relay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000275">Description</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000276">Activation Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000277">Deactivation Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000278">High Level Deactivation Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000279">Low Level Deactivation Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000280">Threshold</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000281">Warning Interval</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000282">Alarm Interval</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000283">Mode</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000284">Pump Cycles</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000285">Stop Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000286">Stop Pump Only</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000287">Alarm Only</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000288">Alarm and Stop Pump</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000289">PSTN</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000290">Write Timeout</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000291">Connect Timeout</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000292">Retry Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000293">Maximum Retries</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000294">Offline Retry Delay</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000295">Idle Timeout</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000296">Phone Number</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000297">Channel Type</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000298">Modem</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000299">Date/Time Settings</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000300">Reset Controller</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000301">Proceed with Controller Reset?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000302">RS232</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000303">Channel Configuration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000304">Date/Time Format</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000305">DD/MM/YYYY</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000306">MM/DD/YYYY</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000307">Westermo GDW11</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000308">Westermo TDW33</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000309">Meters</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000310">Feet</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000311">Change Date/Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000312">Sensor Type</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000313">FLS</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000314">Thermal Switch</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000315">Time Offset</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000316">HMI Configuration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000317">Backlight Timeout</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000318">Backlight Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000319">Contrast Level</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000320">Buzzer Operation</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000321">Site Name</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000322">Pump blocked, high inflow or sensor error.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000323">Manual run below low level or sensor error.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000324">Personnel on site has not acknowledged their presence.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000325">The pump is clogged or blocked or there is a low supply voltage.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000326">Fuses blown, main breaker off or contactor failure.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000327">Pump blocked, high inflow or sensor error.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000328">The pump is running dry or there is an overcurrent.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000329">Inspect and repair the pump.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000330">The station is remotely inhibited.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000331">Pump/pipe blocked, high inflow or worn pumps. Check valve problem.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000332">Faulty analog level sensor, check wiring or loose terminals.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000333">Used to test the communications link.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000334">Unstable line voltage.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000335">Unstable line voltage.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000336">Failed connection, downed conductor or tripped fuse.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000337">Voltage phases are not wired in the correct sequence.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000338">Wrong connection, damaged motor or tripped fuse.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000339">Thermal contact in pump instead of FLS.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000340">Pump is due to be serviced. Reset alarm once serviced.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000341">Corrupt unit, try full upgrade.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000342">Comms lost to controller.</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000343">Power Units</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000344">kW</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000345">hp</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000346">Proceed with clearing the statistics and alarm history?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000347">Backup/Restore</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000348">Backup to USB</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000349">Restore from USB</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000350">Proceed with restoring configuration from USB?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000351">Proceed with backing up configuration to USB?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000352">Operation Failed!</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000353">Please insert USB and retry</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000354">Maximum Run Time</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000355">Fail To Start</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000356">Service Interval</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000357">Waiting for controller to restart with new configuration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000358">Unit of Measurement</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000359">Please review the level setpoints</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000360">Failed to detect the USB drive</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000361">Failed backing up configuration to USB drive</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000362">Failed restoring configuration from USB drive</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000363">Operation timed out</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000364">Failed</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000365">No configuration found on USB drive</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000366">Backup Logs to USB drive</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000367">Proceed with backing up log files to USB drive?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000368">View History</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000369">Overflows</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000370">Total Overflow Duration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000371">TRUE</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000372">FALSE</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000373">All Statistics will be reset. Continue?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000374">External CT</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000375">Primary</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000376">Secondary</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000377">Power Failure</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000378">App. Energy</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000379">Factory Reset</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000380">Proceed with resetting to factory defaults?</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000381">  Today</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000382">Station Configuration</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000383">FAULT ACTIVATED</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000384">FAULT CLEARED - AWAITING RESET</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000385">FAULT CLEARED</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000386">Activate Test Call</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000387">Aquacom channel is being tested</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000388">24V Output Enabled</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000389">Level Full At (% of Sensor Range)</uicontrol>
+			</menucascade>
+		</section>
+		<section>
+			<menucascade>
+				<uicontrol id="u-000390">Suomi</uicontrol>
+			</menucascade>
+		</section>
+	</conbody>
+</concept>
