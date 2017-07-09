@@ -1,3 +1,11 @@
+#!/usr/bin/python
+
+#-------------------------------------------------------------------------------
+# XML dictionary generator
+# Uses a master dictionary (xlsx) and a .def file containing the required
+# strings in order to produce XML dictionaries in several languages
+#-------------------------------------------------------------------------------
+
 import xml.etree.ElementTree as ET
 import xml.dom.minidom
 import os
@@ -6,8 +14,13 @@ import re
 from openpyxl import Workbook
 from openpyxl import load_workbook
 
+# Title of sheet 1 in the xlsx work book
+# Ideally it should be "english"
 SHEET1_TITLE = "MasterDictionary"
 
+# Language code to language mapping
+# This dictionary's values will be used to generate XML file names
+# e.g "english.xml"
 languages = {
     SHEET1_TITLE:"english",
     "hr-HR":"croatian",
@@ -27,6 +40,8 @@ languages = {
     "tr-TR":"turkish",
 }
 
+# Dictionary which will contain a dictionary for each language
+# Each of those dictionaries will contain UID to string pairs
 dictionary = {}
 
 outputDirectory = "dictionaries"
@@ -85,7 +100,7 @@ for sheet in wb:
         # print sheetUidUtf8, sheetStringUtf8
 
         # Add to dictionary
-        currentDict[sheetUid] = sheetString
+        currentDict[uidInt] = sheetString
 
     # keys = currentDict.keys()
     # keys.sort()
@@ -114,11 +129,15 @@ for language in dictionary:
 
     uidKeys = dictionary[language].keys()
     uidKeys.sort()
-    for uid in uidKeys:
+    for uidInt in uidKeys:
         section = ET.SubElement(conbody, "section")
         menucascade = ET.SubElement(section, "menucascade")
+
+        # Master dictionary gives uid with an underscore (_), but we required
+        # UIDs to have dashes (-)
+        uid = "u-%06d" % (uidInt)
         uicontrol = ET.SubElement(menucascade, "uicontrol", {"id":uid})
-        uicontrol.text = dictionary[language][uid]
+        uicontrol.text = dictionary[language][uidInt]
 
     # Create the tree
     # tree = ET.ElementTree(root)
