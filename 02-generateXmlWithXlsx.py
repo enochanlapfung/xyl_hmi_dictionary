@@ -111,7 +111,10 @@ for language in dictionary:
     conbody = ET.SubElement(root, "conbody")
 
     # Creating sections
-    for uid in dictionary[language]:
+
+    uidKeys = dictionary[language].keys()
+    uidKeys.sort()
+    for uid in uidKeys:
         section = ET.SubElement(conbody, "section")
         menucascade = ET.SubElement(section, "menucascade")
         uicontrol = ET.SubElement(menucascade, "uicontrol", {"id":uid})
