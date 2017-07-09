@@ -40,6 +40,25 @@ languages = {
     "tr-TR":"turkish",
 }
 
+language2code = {
+    "english":"en-US",
+    "croatian":"hr-HR",
+    "chinese":"zh-CN",
+    "danish":"da-DK",
+    "dutch":"nl-NL",
+    "finnish":"fi-FI",
+    "french":"fr-FR",
+    "german":"de-DE",
+    "hungarian":"hu-HU",
+    "italian":"it-IT",
+    "norwegian":"no-NO",
+    "polish":"pl-PL",
+    "portuguese":"pt-PT",
+    "spanish":"es-ES",
+    "swedish":"sv-SE",
+    "turkish":"tr-TR",
+}
+
 # Dictionary which will contain a dictionary for each language
 # Each of those dictionaries will contain UID to string pairs
 dictionary = {}
@@ -47,10 +66,16 @@ dictionary = {}
 outputDirectory = "dictionaries"
 
 #-------------------------------------------------------------------------------
+# Obtain user inputs: product name, .def file path
+#-------------------------------------------------------------------------------
+defFilePath = str(raw_input(".def file path: "))
+productName = str(raw_input("Product name: "))
+
+#-------------------------------------------------------------------------------
 # Parsing def file
 #-------------------------------------------------------------------------------
 uids = []
-deffile = open("example.def", 'r')
+deffile = open(defFilePath, 'r')
 for line in deffile:
     # Extracting ID and uID
     result = parse.parse("STRING_DEF({}, {:d})", line)
@@ -58,11 +83,9 @@ for line in deffile:
     uid         = result.fixed[1]
     uids.append(uid)
 
-
-
-
-
-
+#-------------------------------------------------------------------------------
+# Parsing Master Dictionary (xlsx)
+#-------------------------------------------------------------------------------
 
 # Loading master dictionary workbook
 wb = load_workbook("MasterDictionary.xlsx")
@@ -97,65 +120,47 @@ for sheet in wb:
         sheetUidUtf8    = unicode(sheetUid).encode('utf-8')
         sheetStringUtf8 = unicode(sheetString).encode('utf-8')
 
-        # print sheetUidUtf8, sheetStringUtf8
-
         # Add to dictionary
         currentDict[uidInt] = sheetString
 
-    # keys = currentDict.keys()
-    # keys.sort()
-    # print keys
-    # print ""
-
-
-
-
-
-
+#-------------------------------------------------------------------------------
+# Generating XML dictionaries
+#-------------------------------------------------------------------------------
 for language in dictionary:
 
-    print "Generating XML for ", language
+    print "Generating XML for", language
 
     # Building tree from uids and master dictionary
     # Root element
-    root = ET.Element("concept", {"id":"c_dictionary", "xml:lang":"en-US"})
+    root = ET.Element("concept", {"id":"c_dictionary", \
+        "xml:lang":language2code[language]})
     # Title element
     title = ET.SubElement(root, "title")
-    title.text = "CompactController dictionary"
+    title.text = productName
     # Conbody element
     conbody = ET.SubElement(root, "conbody")
 
     # Creating sections
-
     uidKeys = dictionary[language].keys()
     uidKeys.sort()
     for uidInt in uidKeys:
         section = ET.SubElement(conbody, "section")
         menucascade = ET.SubElement(section, "menucascade")
-
         # Master dictionary gives uid with an underscore (_), but we required
         # UIDs to have dashes (-)
         uid = "u-%06d" % (uidInt)
         uicontrol = ET.SubElement(menucascade, "uicontrol", {"id":uid})
         uicontrol.text = dictionary[language][uidInt]
 
-    # Create the tree
-    # tree = ET.ElementTree(root)
-
-
     # Create pretty XML output
-
-
     roughString = ET.tostring(root, encoding="UTF-8")
     reparse = xml.dom.minidom.parseString(roughString)
     doc = reparse.toprettyxml(indent="\t")
+
     # Write the pretty XML to a file
     if not os.path.exists(outputDirectory):
         os.mkdir(outputDirectory)
-
-
     docUtf8 = unicode(doc).encode('utf8')
-
     fileOutput = open(outputDirectory + "\\" + language + ".xml", 'w')
     fileOutput.write(docUtf8)
     fileOutput.close()
